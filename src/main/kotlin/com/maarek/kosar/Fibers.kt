@@ -16,7 +16,7 @@ import java.util.concurrent.ThreadLocalRandom
  */
 public object Fibers {
 
-    public fun futuresDemo() {
+    public fun fibersDemo() {
         val x: Val<Int> = Val()
         val y: Var<Int> = Var()
         val z: Val<String> = Val({ -> "0) x + y = ${x.get() + y.get()}"})
