@@ -9,8 +9,9 @@ import co.paralleluniverse.strands.dataflow.Val
  */
 public object Main {
     fun main(args: Array<String>) {
-        Fibers.futuresDemo()
-        Fibers.channelsDemo()
+
+        Fibers.fibersDemo()
+//        Fibers.channelsDemo()
         Fibers.reactiveDemo()
         Actors.actorsDemo()
         Reactive.observerDemo()
