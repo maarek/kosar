@@ -58,13 +58,20 @@ public object Fibers {
             do {
                 val m = c.receive()
                 System.out.println("Channel => " + (m + x.get()))
-            } while (m != null)
+            } while (m != 40)
         }
 
-        x.set(13)
+        fiber {
+            Strand.sleep(20000)
 
-        t.send(5)
-        t.close()
+            x.set(13)
+
+            t.send(5)
+            t.send(21)
+            t.send(40)
+            t.close()
+        }
+
     }
 
     public fun reactiveDemo() {

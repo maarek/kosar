@@ -27,7 +27,6 @@
     <orderEntry type="library" exported="" name="Gradle: com.lmax:disruptor:3.3.2" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.google.guava:guava:18.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.esotericsoftware.kryo:kryo:2.24.0" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:0.13.1513" level="project" />
     <orderEntry type="library" exported="" name="Gradle: co.paralleluniverse:quasar-actors:0.7.4-SNAPSHOT" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.slf4j:slf4j-api:1.7.12" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.google.protobuf:protobuf-java:2.6.1" level="project" />
@@ -38,5 +37,6 @@
     <orderEntry type="library" exported="" name="Gradle: org.jetbrains.kotlin:kotlin-runtime:0.14.449" level="project" />
     <orderEntry type="library" exported="" name="Gradle: io.reactivex:rxjava:1.0.14" level="project" />
     <orderEntry type="library" exported="" name="Gradle: io.reactivex:rxkotlin:0.22.14" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:0.14.449" level="project" />
   </component>
 </module>

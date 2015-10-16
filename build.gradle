@@ -2,9 +2,9 @@ buildscript {
     ext.kotlinVer = '0.14.449'
     repositories {
         mavenCentral()
+        jcenter()
     }
     dependencies {
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVer"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVer"
     }
 }

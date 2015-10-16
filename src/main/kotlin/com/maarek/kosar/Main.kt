@@ -11,7 +11,7 @@ public object Main {
     fun main(args: Array<String>) {
 
         Fibers.fibersDemo()
-//        Fibers.channelsDemo()
+        Fibers.channelsDemo()
         Fibers.reactiveDemo()
         Actors.actorsDemo()
         Reactive.observerDemo()
@@ -19,10 +19,16 @@ public object Main {
         Futures.completableFuturesDemo()
 
         stringExtensionDemo()
+        Const.constDemo()
+
+        Singleton.singletonDemo()
+        Singleton.init("Hello World!")
+        Singleton.singletonDemo()
+
     }
 
     fun stringExtensionDemo() {
-        System.out.println("Hello World!".replace(Pair("e","w"),Pair("o","a")))
+        System.out.println("Hello World!".replace(Pair("e","u"),Pair("o","a")))
     }
 
     fun String.replace(vararg parameters: Pair<String, String>) =
@@ -30,6 +36,7 @@ public object Main {
 
     fun String.replace(prefix: String, suffix: String, parameters: Array<out Pair<String, String>>) =
             parameters.fold(this, { result, pair -> result.replace(prefix + pair.first + suffix, pair.second) })
+
 }
 
 fun main(args: Array<String>) = Main.main(args)
