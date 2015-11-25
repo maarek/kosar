@@ -1,7 +1,6 @@
 package com.maarek.kosar
 
 import rx.Observable
-import rx.lang.kotlin.fold
 import rx.lang.kotlin.observable
 import rx.lang.kotlin.toObservable
 import kotlin.concurrent.thread

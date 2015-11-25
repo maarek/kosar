@@ -1,6 +1,5 @@
 package com.maarek.kosar
 
-import co.paralleluniverse.kotlin.fiber
 import co.paralleluniverse.strands.Strand
 import co.paralleluniverse.strands.dataflow.Val
 
@@ -24,6 +23,8 @@ public object Main {
         Singleton.singletonDemo()
         Singleton.init("Hello World!")
         Singleton.singletonDemo()
+
+
 
     }
 
