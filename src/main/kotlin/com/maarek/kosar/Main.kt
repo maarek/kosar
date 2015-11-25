@@ -24,7 +24,8 @@ public object Main {
         Singleton.init("Hello World!")
         Singleton.singletonDemo()
 
-
+        Promises.kAsyncDemo()
+        Promises.kCombineDemo()
 
     }
 
